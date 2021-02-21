@@ -1,0 +1,196 @@
+/*-------------------------------------------------------------------------------------*/
+/* NavBar */
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 45px;
+
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+/*-------------------------------------------------------------------------------------*/
+/* Media @ start */
+@media screen and (max-width: 600px) {
+
+    
+.logo {
+    align-content: center;
+    width: 100%;   
+    } 
+ }
+/* Media @ slut */    
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Header/Logo Title */
+.header {
+
+  text-align: center;
+  background: #ccc;
+  color: white;
+  font-size: 30px;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Page Content */
+.content {padding:20px;}
+
+.logo {
+    align-content: flex-end;
+    width: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Hjem Scetion style */
+.sec {
+  color: black;
+  font-family: courier;
+  font-size: 0.7em;
+  align-content: center;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* footer */
+footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: right;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/* Grids */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: gray;
+  padding: 25px;
+  width: 100%;
+  
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Billeder */
+.Turk {
+
+}
+
+.Dania {
+
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Column grids */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/*-------------------------------------------------------------------------------------*/
+/* Grids */ 
+.grid-con {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-i {
+  background-color: rgba(255, 255, );
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 15px;
+  text-align: left;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Tools Photoshop billede */ 
+#Tools {
+    float: left;
+    padding-left: 45px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+/* Den kreative/logiske højre venstre */
+
+
+#venstre {
+float:  left;
+}
+
+#højre {
+float: right;
+}
+
+
+.Kar{ 
+float: inherit;
+} 
+
